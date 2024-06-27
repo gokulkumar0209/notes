@@ -8,7 +8,7 @@ function Note({ inpos, content }) {
 
 	return (
 		<div
-			className="note absolute border border-solid border-black select-none p-10 w-max cursor-move bg-yellow-100"
+			className="note absolute border border-solid border-green-600 select-none p-10 w-max cursor-move bg-yellow-100"
 			style={{ left: `${inpos.x}px`, top: `${inpos.y}px` }}
 		>
 			{content}
